@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>默认功能</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style>
+
+Body{
+scrollbar-arrow-color: #434242;  /*图6,三角箭头的颜色*/
+scrollbar-face-color: #dcdcdc;  /*图5,立体滚动条的颜色*/
+scrollbar-3dlight-color: #dcdcdc;  /*图1,立体滚动条亮边的颜色*/
+scrollbar-highlight-color: #f3f3f3;  /*图2,滚动条空白部分的颜色*/
+scrollbar-shadow-color: #999;  /*图3,立体滚动条阴影的颜色*/
+scrollbar-darkshadow-color: #dcdcdc;  /*图4,立体滚动条强阴影的颜色*/
+scrollbar-track-color: #f3f3f3;  /*图7,立体滚动条背景颜色*/
+scrollbar-base-color:#f3f3f3;  /*滚动条的基本颜色*/ font:12px Tahoma, Helvetica, Arial, Simsun; color:#4d4d4d; background:#fff;
+overflow: scroll;
+overflow-x: hidden;
+overflow-x: auto!important;
+}
+.c1{background-color:#fbfbfb;}
+.c2{background:#fff;}
+</style>
+</head>
+<script type="text/javascript" language="javascript">
+//<!CDATA[
+function g(o){return document.getElementById(o);}
+function HoverLi(n){
+//如果有N个标签,就将i<=N;
+//本功能非常OK,兼容IE7,FF,IE6
+for(var i=1;i<=2;i++){g('tb_'+i).className='normaltab';g('tbc_0'+i).className='undis';}g('tbc_0'+n).className='dis';g('tb_'+n).className='hovertab';
+}
+//如果要做成点击后再转到请将<li>中的onmouseover 改成 onclick;
+//]]>
+function test(){
+  var _row = document.getElementById('test').rows;
+  var _length =_row.length;
+  for(var i=0; i<_length ;i++){
+	  //alert(_row[i].innerHTML)
+	 _row[i].className = (i%2==0)?'c1':'c2';
+  }
+}
+</script>
+<body onLoad="test();">
+<div class="main">
+	<div class="right_top">
+    	<h1><img src="images/ico_4.gif" width="16" height="15">代理商户列表</h1>
+      <h2>
+        	代理商户号或名称：
+<input name="" type="text" class="right_top_h2_input">
+        	<input type="submit"  class="right_top_h2_button_serch" value="查询">
+          <input type="submit"  class="right_top_h2_button_tj" value="添加代理商户">
+        </h2>
+        <table align="center" class="right_list_table"  id="test">
+  <tr>
+    <th scope="col">代理商户号</th>
+    <th scope="col">代理商户名称</th>
+    <th scope="col">状态</th>
+    <th scope="col" style="width:40%">操作</th>
+  </tr>
+  <tr >
+    <td >8000800</td>
+    <td><p>测试代理商户</p></td>
+    <td>正常</td>
+    <td>
+    	<input  type="submit" style="color:#000;width:55px; line-height:18px; height:20px; border:none;background-image:url(images/right_button_xg1.gif)" value=" &nbsp;修改" onMouseOver="javascript:this.style.backgroundImage='url(images/right_button_xg2.gif)';" onMouseOut="javascript:this.style.backgroundImage='url(images/right_button_xg1.gif)';"/>
+        <input  type="submit" style="color:#000;width:126px; line-height:18px; height:20px; border:none;background-image:url(images/right_button_cz1.gif)" value="重置管理员密码" onMouseOver="javascript:this.style.backgroundImage='url(images/right_button_cz2.gif)';" onMouseOut="javascript:this.style.backgroundImage='url(images/right_button_cz1.gif)';"/>
+        <input  type="submit" style="color:#000;width:126px; line-height:18px; height:20px; border:none;background-image:url(images/right_button_sfjs1.gif)" value="收费和结算设置" onMouseOver="javascript:this.style.backgroundImage='url(images/right_button_sfjs2.gif)';" onMouseOut="javascript:this.style.backgroundImage='url(images/right_button_sfjs1.gif)';"/>
+    </td>
+  </tr>
+  <tr>
+    <td>8000800</td>
+    <td><p>测试代理商户</p></td>
+    <td>正常</td>
+    <td>
+    	<input  type="submit" style="color:#000;width:55px; line-height:18px; height:20px; border:none;background-image:url(images/right_button_xg1.gif)" value=" &nbsp;修改" onMouseOver="javascript:this.style.backgroundImage='url(images/right_button_xg2.gif)';" onMouseOut="javascript:this.style.backgroundImage='url(images/right_button_xg1.gif)';"/>
+        <input  type="submit" style="color:#000;width:126px; line-height:18px; height:20px; border:none;background-image:url(images/right_button_cz1.gif)" value="重置管理员密码" onMouseOver="javascript:this.style.backgroundImage='url(images/right_button_cz2.gif)';" onMouseOut="javascript:this.style.backgroundImage='url(images/right_button_cz1.gif)';"/>
+        <input  type="submit" style="color:#000;width:126px; line-height:18px; height:20px; border:none;background-image:url(images/right_button_sfjs1.gif)" value="收费和结算设置" onMouseOver="javascript:this.style.backgroundImage='url(images/right_button_sfjs2.gif)';" onMouseOut="javascript:this.style.backgroundImage='url(images/right_button_sfjs1.gif)';"/>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    </td>
+  </tr>
+   <tr class="right_list_table_tr_tdhs">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    </td>
+  </tr>
+  <tr class="right_list_table_tr_trbs">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    </td>
+  </tr>
+    <tr class="right_list_table_tr_tdhs">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    </td>
+  </tr>
+  <tr class="right_list_table_tr_trbs">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    </td>
+  </tr>
+    <tr class="right_list_table_tr_tdhs">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    </td>
+  </tr>
+  <tr class="right_list_table_tr_trbs">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+    </td>
+  </tr>
+</table>
+	<div class="fanye">
+    	<ul>
+        	<li style="width:100px;">共4条记录  共10页</li>
+            <li><img src="images/fy_allleft2.gif" width="20" height="20"></li>
+            <li><img src="images/fy_left.gif" width="20" height="20"></li>
+            <li style="width:50px;">第 1 页</li>
+            <li><img src="images/ry_allright.gif" width="20" height="20"></li>
+            <li><img src="images/fy_right.gif" width="20" height="20"></li>
+            <li style="width:50px;">跳转到第</li>
+            <li style="width:50px;"><select name="">
+              <option>1</option>
+            </select></li>
+            <li>页</li>
+        </ul>
+    </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,457 @@
+@charset "utf-8";
+@import url("style.css");
+@import url("top.css");
+@import url("lgoin.css");
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  *border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th {
+  text-align: left;
+}
+
+fieldset, img, a img {
+  border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+em, strong {
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: bold;
+  color: #000;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  *font-size: 100%;
+  font-weight: inherit;
+}
+
+del, ins {
+  text-decoration: none;
+}
+
+legend {
+  *margin-left: -7px;
+}
+
+a {
+  color: #07f;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: #07f;
+  text-decoration: underline;
+}
+
+table, td, tr {
+  font-size: 12px;
+  padding: 0;
+  border-collapse: collapse
+}
+
+table, td, input {
+  font-size: 12px;
+  padding: 0
+}
+
+/*去掉连接样式虚线*/
+a {
+  outline: none; /*ff*/
+  hide-focus: expression(this.hideFocus=true); /*ie*/
+  hide-focus: expression(this.hideFocus=true);
+}
+
+.left {
+  float: left;
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.wmain {
+  width: 100%;
+  height: auto;
+  margin: 10px 10px;
+}
+
+.xx {
+  background: url(../images/xx.jpg) no-repeat;
+  width: 10px;
+  height: 65px;
+  border: none;
+}
+
+.yc {
+  background: url(../images/yc.jpg) no-repeat;
+  width: 10px;
+  height: 65px;
+  border: none;
+}
+
+/*左侧菜单*/
+.leftman {
+  width: 197px;
+  height: 100%;
+  float: left;
+  border-collapse: collapse;
+}
+
+.leftright {
+  background: #1f75c8;
+  width: 3px;
+}
+
+.tbhei {
+  float: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.menubj {
+  background: url(../images/menubjs.gif) repeat-x;
+  border: solid 1px #cfcfcf;
+  border-collapse: collapse;
+  width: 100%;
+  height: 27px;
+}
+
+.menbj_l {
+  width: 60px;
+  border-collapse: collapse;
+}
+
+.menbj_r {
+  color: #525453;
+  text-align: left;
+  font-weight: bold;
+}
+
+.menbj_r a {
+  color: #525453;
+  text-align: left;
+  text-decoration: none;
+}
+
+.menbj_r a:hover {
+  color: #525453;
+  text-align: left;
+  text-decoration: none;
+}
+
+.mentbys {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.menutd {
+  height: 30px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.menu_tdl {
+  width: 60px;
+  height: 23px;
+  border-collapse: collapse;
+}
+
+.menu_tdr {
+  height: 23px;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 23px;
+}
+
+.mbxdh {
+  width: 100%;
+  height: 28px;
+  float: left;
+  border: solid 1px #dadada;
+  background: #f1f1f1;
+  line-height: 28px;
+  color: #333;
+}
+
+.rigt_tebl {
+  width: 99.5%;
+  border-collapse: collapse;
+  margin-top: 5px;
+  border: solid 1px #ccc;
+}
+
+.rigt_tebl th {
+  width: 100%;
+  background: url(../images/th.gif) repeat-x;
+  height: 36px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+  border-collapse: collapse;
+  border-bottom: solid 1px #bebdbf;
+  line-height: 33px;
+  padding-left: 5px;
+}
+
+.rigt_tebl tr td {
+  border-bottom: solid 1px #dadada;
+  border-left: solid 1px #dadada;
+  border-right: solid 1px #dadada;
+  background: #fafafa;
+  height: 30px;
+  color: #333;
+  line-height: 30px;
+}
+
+input[type="text"] {
+  width: 160px;
+  height: 18px;
+  border: solid 1px #c4c4c4;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  padding-left: 5px;
+}
+
+input[type="password"] {
+  width: 160px;
+  height: 18px;
+  border: solid 1px #c4c4c4;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  padding-left: 5px;
+}
+
+input[type="checkbox"] {
+  width: 13px;
+  border: solid 1px #c4c4c4;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+textarea {
+  width: 260px;
+  height: 90px;
+  border: solid 1px #c4c4c4;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  padding-left: 5px;
+}
+
+select {
+  height: 23px;
+  border: solid 1px #c4c4c4;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border: 1px solid #b2d1ff;
+}
+
+.input100 {
+  width: 100px;
+  height: 18px;
+  border: solid 1px #c4c4c4;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.rigt_tebl_font {
+  color: #333333;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.rigt_button {
+  background: url(../images/button1.gif) no-repeat;
+  width: 68px;
+  height: 20px;
+  border: none;
+  margin-right: 10px;
+  line-height: 20px;
+}
+.rigt_button_down {
+  background: url(../images/button1.gif) no-repeat;
+  width: 68px;
+  height: 20px;
+  line-height: 20px;
+  display:inline-block;
+}
+.rigt_button_down a{
+    color:#000;
+}
+
+/*首页样式*/
+.tabelmain {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.tabel_top {
+  height: 96px;
+  border-collapse: collapse;
+}
+
+.tabel_left {
+  width: 214px;
+  border-collapse: collapse;
+  height: 100%
+}
+
+.tabel_Change {
+  width: 10px;
+  border-collapse: collapse;
+}
+
+.tabel_right {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+
+html {
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical;
+}
+
+body {
+  font: 12px Tahoma, Helvetica, Arial, Simsun;
+  color: #4d4d4d;
+  background: #fff;
+}
+
+.label_name {
+  width: 9%;
+}
+
+.message {
+  background: #f3f8fc url(../images/skin/information.png) 8px 50% no-repeat;
+  border: 1px solid #b2d1ff;
+  color: #006dba;
+  margin: 10px 0 5px 0;
+  padding: 5px 5px 5px 30px
+}
+
+div.errors {
+  background: #fff3f3;
+  border: 1px solid red;
+  color: #cc0000;
+  margin: 10px 0 5px 0;
+  padding: 5px 0 5px 0;
+}
+
+div.errors ul {
+  list-style: none;
+  padding: 0;
+}
+
+div.errors li {
+  background: url(../images/skin/exclamation.png) 8px 0% no-repeat;
+  line-height: 16px;
+  padding-left: 30px;
+}
+
+td.errors select {
+  border: 1px solid red;
+}
+
+td.errors input {
+  border: 1px solid red;
+}
+
+td.errors textarea {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+}
+
+.passCtrlinput{
+	background:#fff url(../images/login_input.gif) no-repeat right; border:solid 1px #d2d2d2; color:black; width:95px; height:15px; padding:2px;
+}
+.mod { border-top:none; border:1px #D2D2D2 solid; margin-bottom:10px; overflow:hidden; }
+.mod-title { background:url(../images/bg.png) 0 -441px repeat-x; }
+.mod-title { height:31px; line-height:31px; overflow:hidden; padding-left:12px; }
+#help-menu #qMenu li { background:url(../images/bg.png) no-repeat -9999px -9999px; }
+#help-menu #qMenu { margin:0; padding:0; list-style:none outside; background-color:#fff; }
+#help-menu #qMenu a { color:#333; }
+#help-menu #qMenu li { margin:0; padding:0; width:100%; background-position:0 -480px; text-indent:2.5em; line-height:26px; cursor:pointer; color:#374060; overflow:hidden; }
+#help-menu #qMenu li.activeItem { margin:0; padding:0; width:100%; background-position:-500px -480px; text-indent:2.5em; line-height:26px; font-weight:bold; }
+#help-menu #qMenu li.activeItem a { color:#1f75c8; }
+#help-menu #qMenu li.activeColor a { color:#000; }
+#help-menu #qMenu .qMenu2 { padding:1px 0; margin:0; background-color:#fff; width:100%; }
+#help-menu #qMenu .qMenu2 li { line-height:21px; text-indent:3.5em; height:21px; width:100%; list-style:none outside; background-position:-368px -952px; font-weight:normal; cursor:auto; }
+#help-menu #qMenu .qMenu2 li a { color:#333; }
+#help-menu #qMenu .qMenu2 li a.activeA { color:#1f75c8; font-weight:700; }
+.help-page .else { float:left; padding:5px 0 0 0; }
+.help-detail { word-wrap:break-word; word-break:break-all; }
+.help-detail .detail-title { padding:30px 0 20px; font-size:22px; font-weight:700; text-align:center; border-bottom:1px #E6E6E6 dashed; }
+.help-detail .detail-flow { padding:20px 0 20px 0; text-align:center; }
+.help-detail .detail-content { overflow:hidden; width:680px; padding:0 30px 40px; font-size:14px; line-height:1.8; }
+
+
+.odd {
+    background: #f7f7f7;
+}
+.even {
+    background: #fff;
+}
+.tdcss{
+     background:#000;
+}

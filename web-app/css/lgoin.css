@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*login*/
+body{background:#5BAEE4;}
+.loing_box { background:url(../images/LOGINBGS.jpg) repeat-x top #5BAEE4; width:100%; height:620px; }
+.loing_cnt { background:url(../images/loginbg.jpg) left no-repeat no-repeat; width:1000px; height:600px; margin:0 auto; position:relative }
+.loing_tab { width:240px; height:210px; position:absolute; left:560px; top:280px; }
+.loing_inp1 { background:url(../images/login_inp1.jpg); width:150px; height:24px; border:none; line-height:24px; padding-left:6px; }
+.loing_inp2 { background:url(../images/login_inp1.jpg); width:150px; height:24px; border:none; line-height:24px; padding-left:6px; }
+.loing_inpyzm     { background:url(../images/login_inp1.jpg); width:60px; height:24px; border:none; border-right:solid 1px #829CAB;line-height:24px; padding-left:6px; }
+.loing_btn, .loing_btn a, .loing_btn a:hover { width:59px; height:21px; line-height:21px; float:left; margin-right:10px; text-align:center; color:#fff; }
+.loing_btn a { background:url(../images/btna.jpg); display:block; }
+.loing_btn a:hover { background:url(../images/btnb.jpg); display:block; }
+.txtCenter{color:#fff;}
+/*TOP*/

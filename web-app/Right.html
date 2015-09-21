@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>默认功能</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<style>
+
+html { overflow-y:scroll; overflow:-moz-scrollbars-vertical; }
+body { font:12px Tahoma, Helvetica, Arial, Simsun; color:#4d4d4d; background:#fff; }
+</style>
+</head>
+<script type="text/javascript" language="javascript">
+//<!CDATA[
+function g(o){return document.getElementById(o);}
+function HoverLi(n){
+//如果有N个标签,就将i<=N;
+//本功能非常OK,兼容IE7,FF,IE6
+for(var i=1;i<=2;i++){g('tb_'+i).className='normaltab';g('tbc_0'+i).className='undis';}g('tbc_0'+n).className='dis';g('tb_'+n).className='hovertab';
+}
+//如果要做成点击后再转到请将<li>中的onmouseover 改成 onclick;
+//]]>
+</script>
+<body style="overflow-x:hidden>
+<div class="main">
+  <table align="center" class="rigt_tebl">
+  <tr>
+    <th colspan="2">卡BIN信息</td>    
+  </tr>
+  <tr>
+    <td class="right">BIN：</td>
+    <td><span class="rigt_tebl_font">622468</span></td>
+  </tr>
+  <tr>
+    <td class="right">起始位：</td>
+    <td><input type="text" name="textfield" id="textfield"></td>
+  </tr>
+  <tr>
+    <td class="right">中止位：</td>
+    <td><input type="text" name="textfield2" id="textfield2"></td>
+  </tr>
+  <tr>
+    <td class="right">卡名称：</td>
+    <td><input type="text" name="textfield3" id="textfield3"></td>
+  </tr>
+  <tr>
+    <td class="right">英文名称：</td>
+    <td><input type="text" name="textfield4" id="textfield4"></td>
+  </tr>
+  <tr>
+    <td class="right">卡长度：</td>
+    <td><input type="text" name="textfield5" id="textfield5"></td>
+  </tr>
+  <tr>
+    <td class="right">卡类型：</td>
+    <td><input type="text" name="textfield6" id="textfield6"></td>
+  </tr>
+  <tr>
+    <td class="right">发卡组织：</td>
+    <td><input type="text" name="textfield7" id="textfield7"></td>
+  </tr>
+  <tr>
+    <td class="right">状态：</td>
+    <td><input type="text" name="textfield8" id="textfield8" style="width:100px;"></td>
+  </tr>
+  <tr>
+    <td class="right">Red条件：</td>
+    <td><input type="text" name="textfield10" id="textfield10" style="width:100px;"></td>
+  </tr>
+  <tr>
+    <td class="right">备注：</td>
+    <td><input type="text" name="textfield9" id="textfield9"></td>
+  </tr>
+  <tr>
+    <td class="right">更新时间：</td>
+    <td><span class="rigt_tebl_font">2011-03-03</span></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <span class="content"><input type="submit" name="button" id="button" class="rigt_button" style="width:68px; height:20px; border:none;" value="确定"></span>
+    </td>
+    </tr>
+</table>
+
+</div>
+</body>
+</html>

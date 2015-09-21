@@ -1,0 +1,27 @@
+.topmain{
+	width:100%; height:90px; margin:0 auto; background:url(../images/topblack.gif) repeat-x;
+	}
+.logo{
+	width:280px; height:90px; float:left; margin-left:5px;
+	}
+.top_menu{
+	width:350px; float:left; height:20px; margin:61px 40px 0 0; float:right; display:inline;
+	}
+.top_menu ul{
+	width:350px; float:left; height:20px;
+}
+.top_menu ul li{
+	width:25px; float:left; line-height:25px; color:#3f3a39; height:20px;
+	}
+.top_menu ul li a{
+	color:#3f3a39; text-decoration:none;
+	}
+.top_menu ul li a:hover{
+	color:#a0010d; text-decoration:none;
+	}
+.fonthong{
+	color:#a0010d; font-weight:bold;
+	}
+.top_xh{
+	background:url(../images/top_xh.gif) repeat-x; width:100%; float:left; height:6px;
+	}
